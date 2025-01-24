@@ -1,84 +1,86 @@
-# ReactionBuilderBot - chat bot
-It is repository for chat bot: [@ReactionBuilderBot](https://t.me/ReactionBuilderBot)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Malith-Rukshan/Auto-Reaction-Bot/main/logo.png" width="256px" height="256px"/>
+</p>
 
-## What it is?
-This repository can be imported to [Bots.Business](https://bots.business) as a worked chat bot.
+<h2 align="center">
+<b>Reaction Builder Bot</b>
+</h2>
 
-[Bots.Business](https://bots.business) - it is probably the first CBPaaS - Chat Bot Platform as a Service.
+<div align="center">
+Automate Your Telegram Chats With This Auto Reaction Bot! Effortlessly React to Messages in Groups and Channels!
+</div>
+<br>
+<div align="center">
+  <a href="https://telegram.me/ReactionCloneBot">
+    <img src="https://img.shields.io/badge/Demo-ReactionBot-1cd760?logo=telegram&style=flat">
+  </a>
+  <a href="https://telegram.me/ReactionBuilderBot">
+    <img src="https://img.shields.io/badge/ReactionBuilder-Bot-red?logo=telegram&style=flat">
+  </a>
+</div>
 
-A CBPaaS is a cloud-based platform that enables developers to create chatbots without needing to build backend infrastructure.
+---
 
-## Create your own bot for Telegram from this Git repo
+![Preview](https://raw.githubusercontent.com/Malith-Rukshan/Auto-Reaction-Bot/main/preview.gif)
 
-How to create bot?
-1. Create bot with [@BotFather](https://telegram.me/BotFather) and take Secret Token
-2. Create bot in App and add Secret Token
-3. Add Public Key from App as [Deploy key](https://developer.github.com/v3/guides/managing-deploy-keys/#deploy-keys) with read access (and write access for bot exporting if you need it)
-4. Do import for this git repo
+---
 
-Now you can talk with yours new Telegram Bot
+## 🌟 Features
 
-See [more](https://help.bots.business/getting-started)
+- 🔄 Automatic Reactions
+- 📊 Supports Channels & Groups
+- 🌟 Seamlessly Add Or Remove Bots  
+- ⚡ Effortlessly Activate Or Deactivate Bots  
+- 🚀 Create Up to **30 Bots** [Paid]  
+- 🎁 Get **5 Bots** Free as a Starter Pack [Free]
+- 📈 More Features Coming Soon!
 
-## Commands - in commands folder
-File name - it is command name (Bot it can be rewritten in command description)
+---
 
-Command can have: `name`, `help`, `aliases` (second names), `answer`, `keyboard`, `scnarios` (for simple logic) and other options.
+## ⭐ **Reactions**
 
-### Command description
-It is file header:
-
-    /*CMD
-      command: /test
-      help: this is help for ccommand
-      need_reply: [ true or false here ]
-      auto_retry_time: [ time in sec ]
-      answer: it is example answer for /test command
-      keyboard: button1, button2
-      aliases: /test2, /test3
-    CMD*/
-
-See [more](https://help.bots.business/commands)
-
-### Command body
-It is command code in JavaScript.
-Use Bot Java Script for logic in command.
-
-For example:
-> Bot.sendMessage(2+2);
-
-See [more](https://help.bots.business/scenarios-and-bjs)
-
-
-## Libraries - in libs folder
-You can store common code in the libs folder. File name - it is library name.
-
-For example code in myLib.js:
-
-    function hello(){ Bot.sendMessage("Hello from lib!") }
-    function goodbye(name){ Bot.sendMessage("Goodbye, " + name) }
-
-    publish({
-      sayHello: hello,
-      sayGoodbyeTo: goodbye
-    })
-
-then you can run in any bot's command:
-
-    Libs.myLib.hello()
-    Libs.myLib.sayGoodbyeTo("Alice")
-
-See [more](https://help.bots.business/git/library)
-
-## Other bots example
-See other bots examples in the [github](https://github.com/bots-business?utf8=✓&tab=repositories&q=&type=public&language=javascript) or in the [Bot Store](https://bots.business/)
+| Emoji   | Description      | Meaning                 |
+|---------|------------------|-------------------------|
+| 👍      | **Approval**      | Thumbs Up              |
+| ❤      | **Love**          | Affection              |
+| 🔥      | **Fire**          | Amazing, Hot           |
+| 🥰      | **Loved**         | Warmth                 |
+| 👏      | **Applause**      | Well Done              |
+| 😁      | **Happy**         | Cheerful               |
+| 😱      | **Shocked**       | Surprised              |
+| 🎉      | **Celebration**   | Party                  |
+| 🤩      | **Amazed**        | Starstruck             |
+| 🙏      | **Gratitude**     | Prayer                 |
+| 👌      | **Okay**          | Perfect                |
+| 😍      | **In Love**       | Admiration             |
+| ❤‍🔥    | **Passion**       | Love Burns             |
+| 😇      | **Innocent**      | Angelic                |
+| 🤝      | **Agreement**     | Handshake              |
+| 🤗      | **Hug**           | Affection              |
+| 🫡      | **Respect**       | Salute                 |
+| 🗿      | **Unbothered**    | Stoic                  |
+| 🆒      | **Cool**          | Awesome                |
+| 💘      | **Love Struck**   | Falling Fast           |
+| 😘      | **Affection**     | Kiss                   |
+| 😎      | **Confidence**    | Cool                   |
 
 
-## Other help
-[Help.bots.business](https://help.bots.business)
+## 💰 Subscription Plans
 
-## API
-See [API](https://api.bots.business/docs#/docs/summary)
+| Plan        | Price   | Bots Included |
+|-------------|---------|---------------|
+| **Bronze**  | Free    | 5 Bots        |
+| **Silver**  | $100    | 10 Bots       |
+| **Gold**    | $150    | 15 Bots       |
+| **Platinum**| $200    | 20 Bots       |
 
+## 💳 Credits
 
-![](https://bots.business/images/web-logo.png)
+- 💪 Powered By [Telegram Bot API](https://core.telegram.org/bots/api)  
+- 💻 Developed With </> By [Shinei Nouzen](https://t.me/Shineii86)
+
+---
+
+## 🔰 License
+
+This Project Is Licensed Under The [MIT License](http://opensource.org/licenses/MIT).
