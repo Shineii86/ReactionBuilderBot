@@ -49,20 +49,20 @@ Automate Your Telegram Chats With This Auto Reaction Bot! Effortlessly React to 
 | 😁      | **Happy**         | Cheerful               |
 | 😱      | **Shocked**       | Surprised              |
 | 🎉      | **Celebration**   | Party                  |
-| 🤩      | **Amazed**        | Starstruck             |
+| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Smileys/Star%20Struck.webp" alt="Star Struck" width="25" height="25" />      | **Amazed**        | Starstruck             |
 | 🙏      | **Gratitude**     | Prayer                 |
 | 👌      | **Okay**          | Perfect                |
-| 😍      | **In Love**       | Admiration             |
+| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Smileys/Smiling%20Face%20With%20Hearts.webp" alt="Smiling Face With Hearts" width="25" height="25" />      | **In Love**       | Admiration             |
 | ❤‍🔥    | **Passion**       | Love Burns             |
-| 😇      | **Innocent**      | Angelic                |
+| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Smileys/Smiling%20Face%20With%20Halo.webp" alt="Smiling Face With Halo" width="25" height="25" />      | **Innocent**      | Angelic                |
 | 🤝      | **Agreement**     | Handshake              |
-| 🤗      | **Hug**           | Affection              |
-| 🫡      | **Respect**       | Salute                 |
+| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Smileys/Hugging%20Face.webp" alt="Hugging Face" width="25" height="25" />      | **Hug**           | Affection              |
+| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Smileys/Saluting%20Face.webp" alt="Saluting Face" width="25" height="25" />      | **Respect**       | Salute                 |
 | 🗿      | **Unbothered**    | Stoic                  |
 | 🆒      | **Cool**          | Awesome                |
 | 💘      | **Love Struck**   | Falling Fast           |
-| 😘      | **Affection**     | Kiss                   |
-| 😎      | **Confidence**    | Cool                   |
+| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Smileys/Face%20Blowing%20A%20Kiss.webp" alt="Face Blowing A Kiss" width="25" height="25" />      | **Affection**     | Kiss                   |
+| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Smileys/Smiling%20Face%20With%20Sunglasses.webp" alt="Smiling Face With Sunglasses" width="25" height="25" />      | **Confidence**    | Cool                   |
 
 
 ## 💰 Subscription Plans
