@@ -3,12 +3,12 @@
 </p>
 
 <h2 align="center">
-<b>Reaction Builder Bot</b>
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Symbols/New%20Button.webp" alt="New Button" width="25" height="25" /> <b>Reaction Builder Bot</b> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Symbols/Collision.webp" alt="Collision" width="25" height="25" />
 </h2>
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Animals%20and%20Nature/Cloud.webp" alt="Cloud" width="25" height="25" /> Automate Your Telegram Chats With This Auto Reaction Bot! Effortlessly React to Messages in Groups and Channels!
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Animals%20and%20Nature/Cloud.webp" alt="Cloud" width="25" height="25" /> Automate Your Telegram Chats With This Auto Reaction Bot! Effortlessly React to Messages in Groups and Channels! <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="25" height="25" />
 </div>
 <br>
 <div align="center">
@@ -22,19 +22,19 @@
 
 ---
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /> Features
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /> `Features`
 
-- 🔄 Automatic Reactions
-- 📊 Supports Channels & Groups
-- 🌟 Seamlessly Add Or Remove Bots  
-- ⚡ Effortlessly Activate Or Deactivate Bots  
-- 🚀 Create Up to **30 Bots** [Paid]  
-- 🎁 Get **5 Bots** Free as a Starter Pack [Free]
-- 📈 More Features Coming Soon!
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Confetti%20Ball.webp" alt="Confetti Ball" width="25" height="25" /> Automatic Reactions
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Bar%20Chart.webp" alt="Bar Chart" width="25" height="25" /> Supports Channels & Groups
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Toolbox.webp" alt="Toolbox" width="25" height="25" /> Seamlessly Add Or Remove Bots  
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Key.webp" alt="Key" width="25" height="25" /> Effortlessly Activate Or Deactivate Bots  
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Money%20Bag.webp" alt="Money Bag" width="25" height="25" /> Create Up to **30 Bots** [Paid]  
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Symbols/Free%20Button.webp" alt="Free Button" width="25" height="25" /> Get **5 Bots** Free as a Starter Pack [Free]
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Hourglass%20Done.webp" alt="Hourglass Done" width="25" height="25" /> More Features Coming Soon!
 
 ---
 
-## **`Create Reaction Bot`**
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Smileys/Robot.webp" alt="Robot" width="25" height="25" /> **`Create Reaction Bot`**
 
 Enable Auto Reaction Bot with [@ReactionBuilderBot](https://telegram.me/ReactionBuilderBot)
 1. **Open Telegram:**
@@ -52,7 +52,7 @@ Enable Auto Reaction Bot with [@ReactionBuilderBot](https://telegram.me/Reaction
 
 ---
 
-**Sample Output:**
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Symbols/Speech%20Balloon.webp" alt="Speech Balloon" width="25" height="25" /> **`Sample Output`**
 - Post: "New Announcement!"
 - Auto-reactions: 👍, ❤, 🔥.
 
@@ -61,7 +61,7 @@ This process allows seamless interaction in your Telegram groups or channels.
 
 ---
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Hot%20Springs.webp" alt="Hot Springs" width="25" height="25" /> **Reactions**
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Hot%20Springs.webp" alt="Hot Springs" width="25" height="25" /> **`Reactions`**
 
 | Emoji   | Description      | Meaning                 |
 |---------|------------------|-------------------------|
@@ -90,7 +90,7 @@ This process allows seamless interaction in your Telegram groups or channels.
 
 ---
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Gem%20Stone.webp" alt="Gem Stone" width="25" height="25" /> Subscription Plans
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Gem%20Stone.webp" alt="Gem Stone" width="25" height="25" /> `Subscription Plans`
 
 | Plan        | Price   | Bots Included |
 |-------------|---------|---------------|
@@ -101,13 +101,13 @@ This process allows seamless interaction in your Telegram groups or channels.
 
 ---
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Crown.webp" alt="Crown" width="25" height="25" /> Credits
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Crown.webp" alt="Crown" width="25" height="25" /> `Credits`
 
 - <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Flexed%20Biceps.webp" alt="Flexed Biceps" width="25" height="25" /> Powered By [Telegram Bot API](https://core.telegram.org/bots/api)  
 - <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Laptop.webp" alt="Laptop" width="25" height="25" /> Developed With </> By [Shinei Nouzen](https://t.me/Shineii86)
 
 ---
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Light%20Bulb.webp" alt="Light Bulb" width="25" height="25" /> License
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Light%20Bulb.webp" alt="Light Bulb" width="25" height="25" /> `License`
 
 This Project Is Licensed Under The [MIT License](http://opensource.org/licenses/MIT).
