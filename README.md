@@ -34,6 +34,33 @@
 
 ---
 
+## **`Create Reaction Bot`**
+
+Enable Auto Reaction Bot with [@ReactionBuilderBot](https://telegram.me/ReactionBuilderBot)
+1. **Open Telegram:**
+   - Search for `@ReactionBuilderBot`.
+     
+2. **Start a Chat with the Bot:**
+   - Click **Start** to activate the bot.
+
+3. **Create or Clone a Reaction Bot:**
+   - Choose the option to **Add Bot**.
+   - The bot will guide you through setting up reactions.
+4. **Select Target Channel or Group:**
+   - Add the reaction bot to your **Telegram channel or group** as an admin.
+   - Use the provided commands to enable reactions in your group or channel.
+
+---
+
+**Sample Output:**
+- Post: "New Announcement!"
+- Auto-reactions: 👍, ❤, 🔥.
+
+This process allows seamless interaction in your Telegram groups or channels.
+
+
+---
+
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Hot%20Springs.webp" alt="Hot Springs" width="25" height="25" /> **Reactions**
 
 | Emoji   | Description      | Meaning                 |
