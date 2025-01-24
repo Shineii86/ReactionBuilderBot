@@ -92,12 +92,13 @@ This process allows seamless interaction in your Telegram groups or channels.
 
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Gem%20Stone.webp" alt="Gem Stone" width="25" height="25" /> `Subscription Plans`
 
-| Plan        | Price   | Bots Included |
-|-------------|---------|---------------|
-| **Bronze**  | Free    | 5 Bots        |
-| **Silver**  | $100    | 10 Bots       |
-| **Gold**    | $150    | 15 Bots       |
-| **Platinum**| $200    | 20 Bots       |
+
+| Plan        | Price ($) | Price (₹) | Bots Included |
+|-------------|-------------|-------------|---------------|
+| **Bronze**  | Free        | Free        | 5 Bots        |
+| **Silver**  | $2.50       | ₹100      | 10 Bots       |
+| **Gold**    | $3.50        | ₹150     | 15 Bots       |
+| **Platinum**| $4.50        | ₹200     | 20 Bots       |
 
 ---
 
