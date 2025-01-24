@@ -115,10 +115,10 @@ This process allows seamless interaction in your Telegram groups or channels.
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Crown.webp" alt="Crown" width="25" height="25" /> `Credits`
 
 - <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Flexed%20Biceps.webp" alt="Flexed Biceps" width="25" height="25" /> Powered By [Telegram Bot API](https://core.telegram.org/bots/api)  
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Laptop.webp" alt="Laptop" width="25" height="25" /> Developed With </> By [Shinei Nouzen](https://t.me/Shineii86)
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Laptop.webp" alt="Laptop" width="25" height="25" /> Developed With <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Symbols/Red%20Heart.webp" alt="Red Heart" width="25" height="25" /> By [Shinei Nouzen](https://t.me/Shineii86)
 
 ---
 
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Light%20Bulb.webp" alt="Light Bulb" width="25" height="25" /> `License`
 
-This Project Is Licensed Under The [MIT License](http://opensource.org/licenses/MIT).
+This Project Is Licensed Under The [MIT License](https://github.com/Shineii86/ReactionBuilderBot/blob/main/LICENSE).
