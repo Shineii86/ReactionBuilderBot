@@ -1,14 +1,14 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Malith-Rukshan/Auto-Reaction-Bot/main/logo.png" width="256px" height="256px"/>
+  <img src="https://raw.githubusercontent.com/Shineii86/ReactionBuilderBot/refs/heads/main/resources/logo.png" width="256px" height="256px"/>
 </p>
 
 <h2 align="center">
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Symbols/New%20Button.webp" alt="New Button" width="25" height="25" /> <b>Reaction Builder Bot</b> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Symbols/Collision.webp" alt="Collision" width="25" height="25" />
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Symbols/New%20Button.webp" alt="New Button" width="25" height="25" /> <b>𝐑𝚵𝚫𝐂𝐓𝐈𝚯𝐍 𝐁𝐔𝐈𝐋𝐃𝚵𝐑 𝐁𝚯𝐓</b> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Symbols/Collision.webp" alt="Collision" width="25" height="25" />
 </h2>
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Animals%20and%20Nature/Cloud.webp" alt="Cloud" width="25" height="25" /> Automate Your Telegram Chats With This Auto Reaction Bot! Effortlessly React to Messages in Groups and Channels! <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="25" height="25" />
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Animals%20and%20Nature/Cloud.webp" alt="Cloud" width="25" height="25" /> Aᴜᴛᴏᴍᴀᴛᴇ Yᴏᴜʀ Tᴇʟᴇɢʀᴀᴍ Cʜᴀᴛs Wɪᴛʜ Tʜɪs Aᴜᴛᴏ Rᴇᴀᴄᴛɪᴏɴ Bᴏᴛ! Eғғᴏʀᴛʟᴇssʟʏ Rᴇᴀᴄᴛ Tᴏ Mᴇssᴀɢᴇs Iɴ Gʀᴏᴜᴘs Aɴᴅ Cʜᴀɴɴᴇʟs! <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="25" height="25" />
 </div>
 <br>
 <div align="center">
@@ -17,7 +17,17 @@
   </a>
   <a href="https://telegram.me/ReactionBuilderBot">
     <img src="https://img.shields.io/badge/ReactionBuilder-Bot-red?logo=telegram&style=flat">
-  </a>
+  </a> <br><br>
+  
+<sub>
+  
+  <a href="https://core.telegram.org/bots/api#setmessagereaction">Telegram API</a>
+  ▮
+  <a href="https://core.telegram.org/bots/api#reactiontype">Supported Reactions</a>
+  ▮
+  <a href="https://github.com/Shineii86/ReactionBuilderBot/issues/new">Report a Bug</a>
+  
+</sub>
 </div>
 
 ---
