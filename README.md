@@ -88,7 +88,7 @@ Tʜɪs Pʀᴏᴄᴇss Aʟʟᴏᴡs Sᴇᴀᴍʟᴇss Iɴᴛᴇʀᴀᴄᴛɪᴏɴ
 | <img src="https://github.com/Shineii86/Emojis/raw/refs/heads/main/Smileys/Smiling%20Face%20With%20Hearts.webp" alt="Saluting Face" width="25" height="25" />      | **Lᴏᴠᴇᴅ**         | Wᴀʀᴍᴛʜ                 |
 | <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/People/Clapping%20Hands.webp" alt="Clapping Hands" width="25" height="25" />      | **Aᴘᴘʟᴀᴜsᴇ**      | Wᴇʟʟ Dᴏɴᴇ              |
 | <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Smileys/Grinning%20Face%20With%20Smiling%20Eyes.webp" alt="Grinning Face With Smiling Eyes" width="25" height="25" />      | **Hᴀᴘᴘʏ**         | Cʜᴇᴇʀғᴜʟ               |
-| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Smileys/Face%20Screaming%20In%20Fear.webp" alt="Face Screaming In Fear" width="25" height="25" />      | **Shocked**       | Surprised              |
+| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Smileys/Face%20Screaming%20In%20Fear.webp" alt="Face Screaming In Fear" width="25" height="25" />      | **Sʜᴏᴄᴋᴇᴅ**       | Sᴜʀᴘʀɪsᴇᴅ              |
 | <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Activity/Party%20Popper.webp" alt="Party Popper" width="25" height="25" />      | **Cᴇʟᴇʙʀᴀᴛɪᴏɴ**   | Pᴀʀᴛʏ                  |
 | <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Smileys/Star%20Struck.webp" alt="Star Struck" width="25" height="25" />      | **Aᴍᴀᴢᴇᴅ**        | Sᴛᴀʀsᴛʀᴜᴄᴋ             |
 | <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/People/Folded%20Hands.webp" alt="Folded Hands" width="25" height="25" />      | **Gʀᴀᴛɪᴛᴜᴅᴇ**     | Pʀᴀʏᴇʀ                 |
