@@ -13,10 +13,10 @@
 <br>
 <div align="center">
   <a href="https://telegram.me/ReactionCloneBot">
-    <img src="https://img.shields.io/badge/Demo-ReactionBot-1cd760?logo=telegram&style=flat">
+    <img src="https://img.shields.io/badge/Dᴇᴍᴏ-RᴇᴀᴄᴛɪᴏɴBᴏᴛ-1cd760?logo=telegram&style=flat">
   </a>
   <a href="https://telegram.me/ReactionBuilderBot">
-    <img src="https://img.shields.io/badge/ReactionBuilder-Bot-red?logo=telegram&style=flat">
+    <img src="https://img.shields.io/badge/RᴇᴀᴄᴛɪᴏɴBᴜɪʟᴅᴇʀ-Bᴏᴛ-red?logo=telegram&style=flat">
   </a> <br><br>
   
 <sub>
@@ -77,7 +77,7 @@ Tʜɪs Pʀᴏᴄᴇss Aʟʟᴏᴡs Sᴇᴀᴍʟᴇss Iɴᴛᴇʀᴀᴄᴛɪᴏɴ
 | <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/People/Thumbs%20Up.webp" alt="Thumbs Up" width="25" height="25" />      | **Aᴘᴘʀᴏᴠᴀʟ**      | Tʜᴜᴍʙs Uᴘ              |
 | <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Symbols/Red%20Heart.webp" alt="Red Heart" width="25" height="25" />      | **Lᴏᴠᴇ**          | Aғғᴇᴄᴛɪᴏɴ              |
 | <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Symbols/Fire.webp" alt="Confetti Ball" width="25" height="25" />      | **Fɪʀᴇ**          | Aᴍᴀᴢɪɴɢ, Hᴏᴛ           |
-| 🥰      | **Lᴏᴠᴇᴅ**         | Wᴀʀᴍᴛʜ                 |
+| <img src="https://github.com/Shineii86/Emojis/raw/refs/heads/main/Smileys/Smiling%20Face%20With%20Hearts.webp" alt="Saluting Face" width="25" height="25" />      | **Lᴏᴠᴇᴅ**         | Wᴀʀᴍᴛʜ                 |
 | <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/People/Clapping%20Hands.webp" alt="Clapping Hands" width="25" height="25" />      | **Aᴘᴘʟᴀᴜsᴇ**      | Wᴇʟʟ Dᴏɴᴇ              |
 | <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Smileys/Grinning%20Face%20With%20Smiling%20Eyes.webp" alt="Grinning Face With Smiling Eyes" width="25" height="25" />      | **Hᴀᴘᴘʏ**         | Cʜᴇᴇʀғᴜʟ               |
 | <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Smileys/Face%20Screaming%20In%20Fear.webp" alt="Face Screaming In Fear" width="25" height="25" />      | **Shocked**       | Surprised              |
