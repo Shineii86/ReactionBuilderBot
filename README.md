@@ -85,7 +85,7 @@ Tʜɪs Pʀᴏᴄᴇss Aʟʟᴏᴡs Sᴇᴀᴍʟᴇss Iɴᴛᴇʀᴀᴄᴛɪᴏɴ
 | <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Smileys/Star%20Struck.webp" alt="Star Struck" width="25" height="25" />      | **Aᴍᴀᴢᴇᴅ**        | Sᴛᴀʀsᴛʀᴜᴄᴋ             |
 | <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/People/Folded%20Hands.webp" alt="Folded Hands" width="25" height="25" />      | **Gʀᴀᴛɪᴛᴜᴅᴇ**     | Pʀᴀʏᴇʀ                 |
 | <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/People/Ok%20Hand.webp" alt="Ok Hand" width="25" height="25" />      | **Oᴋᴀʏ**          | Pᴇʀғᴇᴄᴛ                |
-| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Smileys/Smiling%20Face%20With%20Hearts.webp" alt="Smiling Face With Hearts" width="25" height="25" />      | **In Love**       | Aᴅᴍɪʀᴀᴛɪᴏɴ             |
+| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/refs/heads/main/Smileys/Smiling%20Face%20with%20Heart%20Eyes.webp" alt="Smiling Face With Hearts" width="25" height="25" />      | **Iɴ Lᴏᴠᴇ**       | Aᴅᴍɪʀᴀᴛɪᴏɴ             |
 | <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Symbols/Heart%20On%20Fire.webp" alt="Heart On Fire" width="25" height="25" />    | **Pᴀssɪᴏɴ**       | Lᴏᴠᴇ Bᴜʀɴs             |
 | <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Smileys/Smiling%20Face%20With%20Halo.webp" alt="Smiling Face With Halo" width="25" height="25" />      | **Iɴɴᴏᴄᴇɴᴛ**      | Aɴɢᴇʟɪᴄ                |
 | <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/People/Handshake.webp" alt="Handshake" width="25" height="25" />      | **Aɢʀᴇᴇᴍᴇɴᴛ**     | Hᴀɴᴅsʜᴀᴋᴇ              |
