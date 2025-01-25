@@ -13,10 +13,10 @@
 <br>
 <div align="center">
   <a href="https://telegram.me/ReactionCloneBot">
-    <img src="https://img.shields.io/badge/Dᴇᴍᴏ-RᴇᴀᴄᴛɪᴏɴBᴏᴛ-1cd760?logo=telegram&style=flat">
+    <img src="https://img.shields.io/badge/Dᴇᴍᴏ-Rᴇᴀᴄᴛɪᴏɴ%20Bᴏᴛ-1cd760?logo=telegram&style=flat">
   </a>
   <a href="https://telegram.me/ReactionBuilderBot">
-    <img src="https://img.shields.io/badge/RᴇᴀᴄᴛɪᴏɴBᴜɪʟᴅᴇʀ-Bᴏᴛ-red?logo=telegram&style=flat">
+    <img src="https://img.shields.io/badge/Rᴇᴀᴄᴛɪᴏɴ-Bᴜɪʟᴅᴇʀ%20Bᴏᴛ-red?logo=telegram&style=flat">
   </a> <br><br>
   
 <sub>
@@ -62,7 +62,7 @@ Eɴᴀʙʟᴇ Aᴜᴛᴏ Rᴇᴀᴄᴛɪᴏɴ Bᴏᴛ Wɪᴛʜ [@Rᴇᴀᴄᴛɪ
      
 <div align="center">
   
-[![YouTube Tutorial](https://img.shields.io/badge/-Wᴀᴛᴄʜ%20YᴏᴜTᴜʙᴇ%20Tᴜᴛᴏʀɪᴀʟ-red?style=flat&logo=YouTube&logoColor=white)](https://youtu.be/qv01EKsU1WU "YouTube Tutorial")
+[![YouTube Tutorial](https://img.shields.io/badge/-Wᴀᴛᴄʜ%20YᴏᴜTᴜʙᴇ%20Tᴜᴛᴏʀɪᴀʟ%20Vɪᴅᴇᴏ-red?style=flat&logo=YouTube&logoColor=white)](https://youtu.be/qv01EKsU1WU "YouTube Tutorial")
 
 </div>
 
