@@ -21,104 +21,105 @@
   
 <sub>
   
-  <a href="https://core.telegram.org/bots/api#setmessagereaction">Telegram API</a>
+  <a href="https://core.telegram.org/bots/api#setmessagereaction">Tᴇʟᴇɢʀᴀᴍ Aᴘɪ</a>
   ▮
-  <a href="https://core.telegram.org/bots/api#reactiontype">Supported Reactions</a>
+  <a href="https://core.telegram.org/bots/api#reactiontype">Sᴜᴘᴘᴏʀᴛᴇᴅ Rᴇᴀᴄᴛɪᴏɴs</a>
   ▮
-  <a href="https://github.com/Shineii86/ReactionBuilderBot/issues/new">Report a Bug</a>
+  <a href="https://github.com/Shineii86/ReactionBuilderBot/issues/new">Rᴇᴘᴏʀᴛ A Bᴜɢ</a>
   
 </sub>
 </div>
 
 ---
 
-### <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /> `Features`
+### <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /> `Fᴇᴀᴛᴜʀᴇs`
 
-- <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Activity/Confetti%20Ball.webp" alt="Confetti Ball" width="25" height="25" /> Automatic Reactions
-- <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Objects/Bar%20Chart.webp" alt="Bar Chart" width="25" height="25" /> Supports Channels & Groups
-- <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Objects/Toolbox.webp" alt="Toolbox" width="25" height="25" /> Seamlessly Add Or Remove Bots  
-- <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Objects/Key.webp" alt="Key" width="25" height="25" /> Effortlessly Activate Or Deactivate Bots  
-- <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Objects/Money%20Bag.webp" alt="Money Bag" width="25" height="25" /> Create Up to **30 Bots** [Paid]  
-- <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Symbols/Free%20Button.webp" alt="Free Button" width="25" height="25" /> Get **5 Bots** Free as a Starter Pack [Free]
-- <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Objects/Hourglass%20Done.webp" alt="Hourglass Done" width="25" height="25" /> More Features Coming Soon!
+- <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Activity/Confetti%20Ball.webp" alt="Confetti Ball" width="25" height="25" /> Aᴜᴛᴏᴍᴀᴛɪᴄ Rᴇᴀᴄᴛɪᴏɴs
+- <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Objects/Bar%20Chart.webp" alt="Bar Chart" width="25" height="25" /> Sᴜᴘᴘᴏʀᴛs Cʜᴀɴɴᴇʟs & Gʀᴏᴜᴘs
+- <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Objects/Toolbox.webp" alt="Toolbox" width="25" height="25" /> Sᴇᴀᴍʟᴇssʟʏ Aᴅᴅ Oʀ Rᴇᴍᴏᴠᴇ Bᴏᴛs  
+- <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Objects/Key.webp" alt="Key" width="25" height="25" /> Eғғᴏʀᴛʟᴇssʟʏ Aᴄᴛɪᴠᴀᴛᴇ Oʀ Dᴇᴀᴄᴛɪᴠᴀᴛᴇ Bᴏᴛs  
+- <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Objects/Money%20Bag.webp" alt="Money Bag" width="25" height="25" /> Cʀᴇᴀᴛᴇ Uᴘ ᴛᴏ **30 Bᴏᴛs** [Pᴀɪᴅ]  
+- <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Symbols/Free%20Button.webp" alt="Free Button" width="25" height="25" /> Gᴇᴛ **5 Bᴏᴛs** Fʀᴇᴇ ᴀs ᴀ Sᴛᴀʀᴛᴇʀ Pᴀᴄᴋ [Fʀᴇᴇ]
+- <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Objects/Hourglass%20Done.webp" alt="Hourglass Done" width="25" height="25" /> Mᴏʀᴇ Fᴇᴀᴛᴜʀᴇs Cᴏᴍɪɴɢ Sᴏᴏɴ!
 
 ---
 
-## <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Smileys/Robot.webp" alt="Robot" width="25" height="25" /> **`Create Reaction Bot`**
+## <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Smileys/Robot.webp" alt="Robot" width="25" height="25" /> **`Cʀᴇᴀᴛᴇ Rᴇᴀᴄᴛɪᴏɴ Bᴏᴛ`**
 
-Enable Auto Reaction Bot with [@ReactionBuilderBot](https://telegram.me/ReactionBuilderBot)
-1. **Open Telegram:**
-   - Search for `@ReactionBuilderBot`.
+Eɴᴀʙʟᴇ Aᴜᴛᴏ Rᴇᴀᴄᴛɪᴏɴ Bᴏᴛ Wɪᴛʜ [@RᴇᴀᴄᴛɪᴏɴBᴜɪʟᴅᴇʀBᴏᴛ](https://telegram.me/ReactionBuilderBot)
+1. **Oᴘᴇɴ Tᴇʟᴇɢʀᴀᴍ:**
+   - Sᴇᴀʀᴄʜ Fᴏʀ `@ReactionBuilderBot`.
      
-2. **Start a Chat with the Bot:**
-   - Click **Start** to activate the bot.
+2. **Sᴛᴀʀᴛ A Cʜᴀᴛ Wɪᴛʜ Tʜᴇ Bᴏᴛ:**
+   - Cʟɪᴄᴋ **Sᴛᴀʀᴛ** Tᴏ Aᴄᴛɪᴠᴀᴛᴇ Tʜᴇ Bᴏᴛ.
 
-3. **Create or Clone a Reaction Bot:**
-   - Choose the option to **Add Bot**.
-   - The bot will guide you through setting up reactions.
-4. **Select Target Channel or Group:**
-   - Add the reaction bot to your **Telegram channel or group** as an admin.
-   - Use the provided commands to enable reactions in your group or channel.
-
----
-
-## <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Symbols/Speech%20Balloon.webp" alt="Speech Balloon" width="25" height="25" /> **`Sample Output`**
-- Post: "New Announcement!"
-- Auto-reactions: <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/People/Thumbs%20Up.webp" alt="Thumbs Up" width="25" height="25" />, <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Symbols/Red%20Heart.webp" alt="Red Heart" width="25" height="25" />, <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Symbols/Fire.webp" alt="Confetti Ball" width="25" height="25" />.
-
-This process allows seamless interaction in your Telegram groups or channels.
-
+3. **Cʀᴇᴀᴛᴇ Oʀ Cʟᴏɴᴇ ᴀ Rᴇᴀᴄᴛɪᴏɴ Bᴏᴛ:**
+   - Cʜᴏᴏsᴇ Tʜᴇ Oᴘᴛɪᴏɴ Tᴏ **Aᴅᴅ Bᴏᴛ**.
+   - Tʜᴇ Bᴏᴛ Wɪʟʟ Gᴜɪᴅᴇ Yᴏᴜ Tʜʀᴏᴜɢʜ Sᴇᴛᴛɪɴɢ Uᴘ Rᴇᴀᴄᴛɪᴏɴs.
+4. **Sᴇʟᴇᴄᴛ Tᴀʀɢᴇᴛ Cʜᴀɴɴᴇʟ Oʀ Gʀᴏᴜᴘ:**
+   - Aᴅᴅ Tʜᴇ Rᴇᴀᴄᴛɪᴏɴ Bᴏᴛ Tᴏ Yᴏᴜʀ **Tᴇʟᴇɢʀᴀᴍ Cʜᴀɴɴᴇʟ Oʀ Gʀᴏᴜᴘ** As Aɴ Aᴅᴍɪɴ.
+   - Usᴇ Tʜᴇ Pʀᴏᴠɪᴅᴇᴅ Cᴏᴍᴍᴀɴᴅs Tᴏ Eɴᴀʙʟᴇ Rᴇᴀᴄᴛɪᴏɴs Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Oʀ Cʜᴀɴɴᴇʟ.
 
 ---
 
-### <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Travel%20and%20Places/Hot%20Springs.webp" alt="Hot Springs" width="25" height="25" /> **`Reactions`**
+## <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Symbols/Speech%20Balloon.webp" alt="Speech Balloon" width="25" height="25" /> **`Sᴀᴍᴘʟᴇ Oᴜᴛᴘᴜᴛ`**
+- Pᴏsᴛ: "Nᴇᴡ Aɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ!"
+- Aᴜᴛᴏ-Rᴇᴀᴄᴛɪᴏɴs: <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/People/Thumbs%20Up.webp" alt="Thumbs Up" width="25" height="25" />, <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Symbols/Red%20Heart.webp" alt="Red Heart" width="25" height="25" />, <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Symbols/Fire.webp" alt="Confetti Ball" width="25" height="25" />.
 
-| Emoji   | Description      | Meaning                 |
+Tʜɪs Pʀᴏᴄᴇss Aʟʟᴏᴡs Sᴇᴀᴍʟᴇss Iɴᴛᴇʀᴀᴄᴛɪᴏɴ Iɴ Yᴏᴜʀ Tᴇʟᴇɢʀᴀᴍ Gʀᴏᴜᴘs Oʀ Cʜᴀɴɴᴇʟs.
+
+---
+
+### <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Travel%20and%20Places/Hot%20Springs.webp" alt="Hot Springs" width="25" height="25" /> **`Rᴇᴀᴄᴛɪᴏɴs`**
+
+| Eᴍᴏᴊɪ   | Dᴇsᴄʀɪᴘᴛɪᴏɴ      | Mᴇᴀɴɪɴɢ                 |
 |---------|------------------|-------------------------|
-| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/People/Thumbs%20Up.webp" alt="Thumbs Up" width="25" height="25" />      | **Approval**      | Thumbs Up              |
-| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Symbols/Red%20Heart.webp" alt="Red Heart" width="25" height="25" />      | **Love**          | Affection              |
-| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Symbols/Fire.webp" alt="Confetti Ball" width="25" height="25" />      | **Fire**          | Amazing, Hot           |
-| 🥰      | **Loved**         | Warmth                 |
-| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/People/Clapping%20Hands.webp" alt="Clapping Hands" width="25" height="25" />      | **Applause**      | Well Done              |
-| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Smileys/Grinning%20Face%20With%20Smiling%20Eyes.webp" alt="Grinning Face With Smiling Eyes" width="25" height="25" />      | **Happy**         | Cheerful               |
+| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/People/Thumbs%20Up.webp" alt="Thumbs Up" width="25" height="25" />      | **Aᴘᴘʀᴏᴠᴀʟ**      | Tʜᴜᴍʙs Uᴘ              |
+| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Symbols/Red%20Heart.webp" alt="Red Heart" width="25" height="25" />      | **Lᴏᴠᴇ**          | Aғғᴇᴄᴛɪᴏɴ              |
+| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Symbols/Fire.webp" alt="Confetti Ball" width="25" height="25" />      | **Fɪʀᴇ**          | Aᴍᴀᴢɪɴɢ, Hᴏᴛ           |
+| 🥰      | **Lᴏᴠᴇᴅ**         | Wᴀʀᴍᴛʜ                 |
+| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/People/Clapping%20Hands.webp" alt="Clapping Hands" width="25" height="25" />      | **Aᴘᴘʟᴀᴜsᴇ**      | Wᴇʟʟ Dᴏɴᴇ              |
+| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Smileys/Grinning%20Face%20With%20Smiling%20Eyes.webp" alt="Grinning Face With Smiling Eyes" width="25" height="25" />      | **Hᴀᴘᴘʏ**         | Cʜᴇᴇʀғᴜʟ               |
 | <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Smileys/Face%20Screaming%20In%20Fear.webp" alt="Face Screaming In Fear" width="25" height="25" />      | **Shocked**       | Surprised              |
-| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Activity/Party%20Popper.webp" alt="Party Popper" width="25" height="25" />      | **Celebration**   | Party                  |
-| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Smileys/Star%20Struck.webp" alt="Star Struck" width="25" height="25" />      | **Amazed**        | Starstruck             |
-| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/People/Folded%20Hands.webp" alt="Folded Hands" width="25" height="25" />      | **Gratitude**     | Prayer                 |
-| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/People/Ok%20Hand.webp" alt="Ok Hand" width="25" height="25" />      | **Okay**          | Perfect                |
-| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Smileys/Smiling%20Face%20With%20Hearts.webp" alt="Smiling Face With Hearts" width="25" height="25" />      | **In Love**       | Admiration             |
-| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Symbols/Heart%20On%20Fire.webp" alt="Heart On Fire" width="25" height="25" />    | **Passion**       | Love Burns             |
-| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Smileys/Smiling%20Face%20With%20Halo.webp" alt="Smiling Face With Halo" width="25" height="25" />      | **Innocent**      | Angelic                |
-| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/People/Handshake.webp" alt="Handshake" width="25" height="25" />      | **Agreement**     | Handshake              |
-| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Smileys/Hugging%20Face.webp" alt="Hugging Face" width="25" height="25" />      | **Hug**           | Affection              |
-| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Smileys/Saluting%20Face.webp" alt="Saluting Face" width="25" height="25" />      | **Respect**       | Salute                 |
-| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Travel%20and%20Places/Moai.webp" alt="Moai" width="25" height="25" />      | **Unbothered**    | Stoic                  |
-| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Symbols/Cool%20Button.webp" alt="Cool Button" width="25" height="25" />      | **Cool**          | Awesome                |
-| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Symbols/Heart%20With%20Arrow.webp" alt="Heart With Arrow" width="25" height="25" />      | **Love Struck**   | Falling Fast           |
-| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Smileys/Face%20Blowing%20A%20Kiss.webp" alt="Face Blowing A Kiss" width="25" height="25" />      | **Affection**     | Kiss                   |
-| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Smileys/Smiling%20Face%20With%20Sunglasses.webp" alt="Smiling Face With Sunglasses" width="25" height="25" />      | **Confidence**    | Cool                   |
+| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Activity/Party%20Popper.webp" alt="Party Popper" width="25" height="25" />      | **Cᴇʟᴇʙʀᴀᴛɪᴏɴ**   | Pᴀʀᴛʏ                  |
+| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Smileys/Star%20Struck.webp" alt="Star Struck" width="25" height="25" />      | **Aᴍᴀᴢᴇᴅ**        | Sᴛᴀʀsᴛʀᴜᴄᴋ             |
+| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/People/Folded%20Hands.webp" alt="Folded Hands" width="25" height="25" />      | **Gʀᴀᴛɪᴛᴜᴅᴇ**     | Pʀᴀʏᴇʀ                 |
+| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/People/Ok%20Hand.webp" alt="Ok Hand" width="25" height="25" />      | **Oᴋᴀʏ**          | Pᴇʀғᴇᴄᴛ                |
+| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Smileys/Smiling%20Face%20With%20Hearts.webp" alt="Smiling Face With Hearts" width="25" height="25" />      | **In Love**       | Aᴅᴍɪʀᴀᴛɪᴏɴ             |
+| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Symbols/Heart%20On%20Fire.webp" alt="Heart On Fire" width="25" height="25" />    | **Pᴀssɪᴏɴ**       | Lᴏᴠᴇ Bᴜʀɴs             |
+| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Smileys/Smiling%20Face%20With%20Halo.webp" alt="Smiling Face With Halo" width="25" height="25" />      | **Iɴɴᴏᴄᴇɴᴛ**      | Aɴɢᴇʟɪᴄ                |
+| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/People/Handshake.webp" alt="Handshake" width="25" height="25" />      | **Aɢʀᴇᴇᴍᴇɴᴛ**     | Hᴀɴᴅsʜᴀᴋᴇ              |
+| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Smileys/Hugging%20Face.webp" alt="Hugging Face" width="25" height="25" />      | **Hᴜɢ**           | Aғғᴇᴄᴛɪᴏɴ              |
+| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Smileys/Saluting%20Face.webp" alt="Saluting Face" width="25" height="25" />      | **Rᴇsᴘᴇᴄᴛ**       | Sᴀʟᴜᴛᴇ                 |
+| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Travel%20and%20Places/Moai.webp" alt="Moai" width="25" height="25" />      | **Uɴʙᴏᴛʜᴇʀᴇᴅ**    | Sᴛᴏɪᴄ                  |
+| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Symbols/Cool%20Button.webp" alt="Cool Button" width="25" height="25" />      | **Cᴏᴏʟ**          | Aᴡᴇsᴏᴍᴇ                |
+| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Symbols/Heart%20With%20Arrow.webp" alt="Heart With Arrow" width="25" height="25" />      | **Lᴏᴠᴇ Sᴛʀᴜᴄᴋ**   | Fᴀʟʟɪɴɢ Fᴀsᴛ           |
+| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Smileys/Face%20Blowing%20A%20Kiss.webp" alt="Face Blowing A Kiss" width="25" height="25" />      | **Aғғᴇᴄᴛɪᴏɴ**     | Kɪss                   |
+| <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Smileys/Smiling%20Face%20With%20Sunglasses.webp" alt="Smiling Face With Sunglasses" width="25" height="25" />      | **Cᴏɴғɪᴅᴇɴᴄᴇ**    | Cᴏᴏʟ                   |
 
 ---
 
-### <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Objects/Gem%20Stone.webp" alt="Gem Stone" width="25" height="25" /> `Subscription Plans`
+### <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Objects/Gem%20Stone.webp" alt="Gem Stone" width="25" height="25" /> `Sᴜʙsᴄʀɪᴘᴛɪᴏɴ Pʟᴀɴs`
 
 
-| Plan        | Price ($) | Price (₹) | Bots Included |
+| Pʟᴀɴs        | Pʀɪᴄᴇs ($) | Pʀɪᴄᴇs (₹) | Bᴏᴛs Iɴᴄʟᴜᴅᴇᴅ |
 |-------------|-------------|-------------|---------------|
-| **Bronze**  | Free        | Free        | 5 Bots        |
-| **Silver**  | $2.50       | ₹100      | 10 Bots       |
-| **Gold**    | $3.50        | ₹150     | 15 Bots       |
-| **Platinum**| $4.50        | ₹200     | 20 Bots       |
+| **Bʀᴏɴᴢᴇ**  | Free        | Free        | 5 Bots        |
+| **Sɪʟᴠᴇʀ**  | $2.50       | ₹100      | 10 Bots       |
+| **Gᴏʟᴅ**    | $3.50        | ₹150     | 15 Bots       |
+| **Pʟᴀᴛɪɴᴜᴍ**| $4.50        | ₹200     | 20 Bots       |
 
 ---
 
-### <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Objects/Crown.webp" alt="Crown" width="25" height="25" /> `Credits`
+### <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Objects/Crown.webp" alt="Crown" width="25" height="25" /> `Cʀᴇᴅɪᴛs`
 
-- <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/People/Flexed%20Biceps.webp" alt="Flexed Biceps" width="25" height="25" /> Powered By [Telegram Bot API](https://core.telegram.org/bots/api)  
-- <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Objects/Laptop.webp" alt="Laptop" width="25" height="25" /> Developed With <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Symbols/Red%20Heart.webp" alt="Red Heart" width="25" height="25" /> By [Shinei Nouzen](https://t.me/Shineii86)
+- <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/People/Flexed%20Biceps.webp" alt="Flexed Biceps" width="25" height="25" /> Pᴏᴡᴇʀᴇᴅ Bʏ [Tᴇʟᴇɢʀᴀᴍ Bᴏᴛ Aᴘɪ](https://core.telegram.org/bots/api)  
+- <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Objects/Laptop.webp" alt="Laptop" width="25" height="25" /> Dᴇᴠᴇʟᴏᴘᴇᴅ Wɪᴛʜ <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Symbols/Red%20Heart.webp" alt="Red Heart" width="25" height="25" /> Bʏ [Sʜɪɴᴇɪ Nᴏᴜᴢᴇɴ](https://telegram.me/Shineii86)
 
 ---
 
-### <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Objects/Light%20Bulb.webp" alt="Light Bulb" width="25" height="25" /> `License`
+### <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Objects/Light%20Bulb.webp" alt="Light Bulb" width="25" height="25" /> `Lɪᴄᴇɴsᴇ`
+<img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Animals%20and%20Nature/Star.webp" alt="Star" width="25" height="25" /> [Gɪᴠᴇ A Sᴛᴀʀ Tᴏ Tʜɪs Pʀᴏᴊᴇᴄᴛ](https://github.com/Shineii86/ReactionBuilderBot) <br/>
+<img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Animals%20and%20Nature/Cherry%20Blossom.webp" alt="Cherry Blossom" width="25" height="25" /> [Fᴏʟʟᴏᴡ Mᴇ Oɴ Gɪᴛʜᴜʙ](https://github.com/Shineii86)<br/>
 
-This Project Is Licensed Under The [MIT License](https://github.com/Shineii86/ReactionBuilderBot/blob/main/LICENSE).
+Tʜɪs Pʀᴏᴊᴇᴄᴛ Is Lɪᴄᴇɴsᴇᴅ Uɴᴅᴇʀ Tʜᴇ [MIT Lɪᴄᴇɴsᴇ](https://github.com/Shineii86/ReactionBuilderBot/blob/main/LICENSE).
