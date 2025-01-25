@@ -1,4 +1,4 @@
-<p align="center">
+ii<p align="center">
   <img src="https://raw.githubusercontent.com/Shineii86/ReactionBuilderBot/refs/heads/main/resources/logo.png" width="256px" height="256px"/>
 </p>
 
@@ -105,7 +105,7 @@ Tʜɪs Pʀᴏᴄᴇss Aʟʟᴏᴡs Sᴇᴀᴍʟᴇss Iɴᴛᴇʀᴀᴄᴛɪᴏɴ
 | <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Smileys/Face%20Blowing%20A%20Kiss.webp" alt="Face Blowing A Kiss" width="25" height="25" />      | **Aғғᴇᴄᴛɪᴏɴ**     | Kɪss                   |
 | <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Smileys/Smiling%20Face%20With%20Sunglasses.webp" alt="Smiling Face With Sunglasses" width="25" height="25" />      | **Cᴏɴғɪᴅᴇɴᴄᴇ**    | Cᴏᴏʟ                   |
 
----
+<!---
 
 ### <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Objects/Gem%20Stone.webp" alt="Gem Stone" width="25" height="25" /> `Sᴜʙsᴄʀɪᴘᴛɪᴏɴ Pʟᴀɴs`
 
@@ -117,7 +117,7 @@ Tʜɪs Pʀᴏᴄᴇss Aʟʟᴏᴡs Sᴇᴀᴍʟᴇss Iɴᴛᴇʀᴀᴄᴛɪᴏɴ
 | **Gᴏʟᴅ**    | $3.50        | ₹150     | 15 Bots       |
 | **Pʟᴀᴛɪɴᴜᴍ**| $4.50        | ₹200     | 20 Bots       |
 
----
+--->
 
 ### <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Objects/Crown.webp" alt="Crown" width="25" height="25" /> `Cʀᴇᴅɪᴛs`
 
