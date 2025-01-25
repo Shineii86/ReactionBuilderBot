@@ -76,7 +76,9 @@ Tʜɪs Pʀᴏᴄᴇss Aʟʟᴏᴡs Sᴇᴀᴍʟᴇss Iɴᴛᴇʀᴀᴄᴛɪᴏɴ
 
 ---
 
-### <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Travel%20and%20Places/Hot%20Springs.webp" alt="Hot Springs" width="25" height="25" /> **`Rᴇᴀᴄᴛɪᴏɴs`**
+### <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Travel%20and%20Places/Hot%20Springs.webp" alt="Hot Springs" width="25" height="25" /> **`Eɴᴀʙʟᴇᴅ Rᴇᴀᴄᴛɪᴏɴs`**
+
+> Sɪᴍᴘʟʏ Aᴅᴅ Tʜᴇ Bᴏᴛ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ Oʀ Cʜᴀɴɴᴇʟ, Aɴᴅ Iᴛ Wɪʟʟ Bᴇɢɪɴ Rᴇᴀᴄᴛɪɴɢ Tᴏ Nᴇᴡ Mᴇssᴀɢᴇs Usɪɴɢ A Pʀᴇᴅᴇғɪɴᴇᴅ Sᴇᴛ Oғ Eᴍᴏᴊɪs.
 
 | Eᴍᴏᴊɪ   | Dᴇsᴄʀɪᴘᴛɪᴏɴ      | Mᴇᴀɴɪɴɢ                 |
 |---------|------------------|-------------------------|
