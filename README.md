@@ -59,6 +59,12 @@ Eɴᴀʙʟᴇ Aᴜᴛᴏ Rᴇᴀᴄᴛɪᴏɴ Bᴏᴛ Wɪᴛʜ [@Rᴇᴀᴄᴛɪ
 4. **Sᴇʟᴇᴄᴛ Tᴀʀɢᴇᴛ Cʜᴀɴɴᴇʟ Oʀ Gʀᴏᴜᴘ:**
    - Aᴅᴅ Tʜᴇ Rᴇᴀᴄᴛɪᴏɴ Bᴏᴛ Tᴏ Yᴏᴜʀ **Tᴇʟᴇɢʀᴀᴍ Cʜᴀɴɴᴇʟ Oʀ Gʀᴏᴜᴘ** As Aɴ Aᴅᴍɪɴ.
    - Usᴇ Tʜᴇ Pʀᴏᴠɪᴅᴇᴅ Cᴏᴍᴍᴀɴᴅs Tᴏ Eɴᴀʙʟᴇ Rᴇᴀᴄᴛɪᴏɴs Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Oʀ Cʜᴀɴɴᴇʟ.
+     
+<div align="center">
+  
+[![YouTube Tutorial](https://img.shields.io/badge/-Wᴀᴛᴄʜ%20YᴏᴜTᴜʙᴇ%20Tᴜᴛᴏʀɪᴀʟ-red?style=flat&logo=YouTube&logoColor=white)](https://youtu.be/qv01EKsU1WU "YouTube Tutorial")
+
+</div>
 
 ---
 
