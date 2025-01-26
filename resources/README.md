@@ -13,4 +13,10 @@ https://github.com/user-attachments/assets/379a6f41-2479-402b-a45f-c264d7d5c0d1
 <details><summary>Private Chat Preview</summary>
   
 https://github.com/user-attachments/assets/f6e4bb7a-932d-4bbd-afc3-73197ad7d4f6
-</details>
+</details><br><br>
+
+<div align="center"> 
+  
+  [❰ BACK ❱](https://github.com/Shineii86/ReactionBuilderBot) 
+
+</div>
