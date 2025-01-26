@@ -1,4 +1,4 @@
-ii<p align="center">
+<p align="center">
   <img src="https://raw.githubusercontent.com/Shineii86/ReactionBuilderBot/refs/heads/main/resources/logo.png" width="256px" height="256px"/>
 </p>
 
