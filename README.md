@@ -74,6 +74,12 @@ Eɴᴀʙʟᴇ Aᴜᴛᴏ Rᴇᴀᴄᴛɪᴏɴ Bᴏᴛ Wɪᴛʜ [@Rᴇᴀᴄᴛɪ
 
 Tʜɪs Pʀᴏᴄᴇss Aʟʟᴏᴡs Sᴇᴀᴍʟᴇss Iɴᴛᴇʀᴀᴄᴛɪᴏɴ Iɴ Yᴏᴜʀ Tᴇʟᴇɢʀᴀᴍ Gʀᴏᴜᴘs Oʀ Cʜᴀɴɴᴇʟs.
 
+<div align="center">
+  
+[![Preview](https://img.shields.io/badge/Pʀᴇᴠɪᴇᴡ%20Vɪᴅᴇᴏs-red?style=flat&logo=YouTube&logoColor=white)](https://github.com/Shineii86/ReactionBuilderBot/tree/main/resources)
+
+</div>
+
 ---
 
 ### <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Travel%20and%20Places/Hot%20Springs.webp" alt="Hot Springs" width="25" height="25" /> **`Eɴᴀʙʟᴇᴅ Rᴇᴀᴄᴛɪᴏɴs`**
