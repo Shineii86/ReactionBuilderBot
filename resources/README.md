@@ -1,4 +1,4 @@
-<div align="center">𝐑𝚵𝚫𝐂𝐓𝐈𝚯𝐍 𝐁𝚯𝐓𝐒 𝐏𝐑𝚵𝐕𝐈𝚵𝐖𝐒</div><br><p>
+<div align="center"><img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Travel%20and%20Places/Hot%20Springs.webp" alt="Hot Springs" width="25" height="25" /> 𝐑𝚵𝚫𝐂𝐓𝐈𝚯𝐍 𝐁𝚯𝐓𝐒 𝐏𝐑𝚵𝐕𝐈𝚵𝐖𝐒 <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Travel%20and%20Places/Hot%20Springs.webp" alt="Hot Springs" width="25" height="25" /></div><br><p>
 
 <details><summary>Group Chat Preview</summary>
   
