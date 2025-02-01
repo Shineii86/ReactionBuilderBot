@@ -136,4 +136,10 @@ Tʜɪs Pʀᴏᴄᴇss Aʟʟᴏᴡs Sᴇᴀᴍʟᴇss Iɴᴛᴇʀᴀᴄᴛɪᴏɴ
 <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Animals%20and%20Nature/Star.webp" alt="Star" width="25" height="25" /> [Gɪᴠᴇ A Sᴛᴀʀ Tᴏ Tʜɪs Pʀᴏᴊᴇᴄᴛ](https://github.com/Shineii86/ReactionBuilderBot) <br/>
 <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Animals%20and%20Nature/Cherry%20Blossom.webp" alt="Cherry Blossom" width="25" height="25" /> [Fᴏʟʟᴏᴡ Mᴇ Oɴ Gɪᴛʜᴜʙ](https://github.com/Shineii86)<br/>
 
-Tʜɪs Pʀᴏᴊᴇᴄᴛ Is Lɪᴄᴇɴsᴇᴅ Uɴᴅᴇʀ Tʜᴇ [MIT Lɪᴄᴇɴsᴇ](https://github.com/Shineii86/ReactionBuilderBot/blob/main/LICENSE).
+Tʜɪs Pʀᴏᴊᴇᴄᴛ Is Lɪᴄᴇɴsᴇᴅ Uɴᴅᴇʀ Tʜᴇ [Mɪᴛ Lɪᴄᴇɴsᴇ](https://github.com/Shineii86/ReactionBuilderBot/blob/main/LICENSE).
+
+<div align="center">
+
+[![Profile last updated](https://img.shields.io/github/last-commit/Shineii86/Shineii86/main?label=Last%20updated&style=flat)](https://github.com/Shineii86/ReactionBuilderBot/commits)
+
+</div>
