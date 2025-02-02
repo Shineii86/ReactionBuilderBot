@@ -140,6 +140,6 @@ Tʜɪs Pʀᴏᴊᴇᴄᴛ Is Lɪᴄᴇɴsᴇᴅ Uɴᴅᴇʀ Tʜᴇ [Mɪᴛ Lɪ�
 
 <div align="center">
 
-[![Profile last updated](https://img.shields.io/github/last-commit/Shineii86/Shineii86/main?label=Last%20updated&style=flat)](https://github.com/Shineii86/ReactionBuilderBot/commits)
+[![Profile last updated](https://img.shields.io/github/last-commit/Shineii86/ReactionBuilderBot/main?label=Last%20updated&style=flat)](https://github.com/Shineii86/ReactionBuilderBot/commits)
 
 </div>
