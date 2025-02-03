@@ -1,7 +1,7 @@
-# Privacy Policy for Quinx & ReactionBuilderBot
+# Privacy Policy for ReactionBuilderBot
 
 ## Introduction
-This Privacy Policy describes the policies and procedures regarding the collection, use, and disclosure of your personal information when you use the services provided by **Quinx** and **ReactionBuilderBot** (formerly known as Quinx Network). By using our services, you consent to the collection and use of information as outlined in this policy.
+This Privacy Policy describes the policies and procedures regarding the collection, use, and disclosure of your personal information when you use the services provided by **[Quinx Network]()** and **[ReactionBuilder Bot]()** (formerly known as Quinx Network). By using our services, you consent to the collection and use of information as outlined in this policy.
 
 Our primary goal is to provide and improve our bots and services while ensuring your privacy and security.
 
