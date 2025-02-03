@@ -1,7 +1,7 @@
 # Privacy Policy for ReactionBuilderBot
 
 ## Introduction
-This Privacy Policy describes the policies and procedures regarding the collection, use, and disclosure of your personal information when you use the services provided by **[Quinx Network]()** and **[ReactionBuilder Bot]()** (formerly known as Quinx Network). By using our services, you consent to the collection and use of information as outlined in this policy.
+This Privacy Policy describes the policies and procedures regarding the collection, use, and disclosure of your personal information when you use the services provided by **[Quinx Network](https://github.com/QuinxNetwork)** and **[ReactionBuilder Bot](https://t.me/ReactionBuilder?start=REACT13437642)** (formerly known as [Quinx Network](https://telegram.me/QuinxNetwork)). By using our services, you consent to the collection and use of information as outlined in this policy.
 
 Our primary goal is to provide and improve our bots and services while ensuring your privacy and security.
 
@@ -9,7 +9,7 @@ Our primary goal is to provide and improve our bots and services while ensuring 
 
 ## Project Description
 
-**Quinx** and **ReactionBuilderBot** are advanced bots built using **Bots.Business (BJs)** to help automate reactions and interactions within Telegram groups and channels.
+**[Quinx Network](https://telegram.me/QuinxNetwork)** and **[ReactionBuilder Bot](https://t.me/ReactionBuilder?start=REACT13437642)** are advanced bots built using **Bots.Business (BJs)** to help automate reactions and interactions within Telegram groups and channels.
 
 ---
 
@@ -29,8 +29,7 @@ We may collect the following details from our bots, channels, and groups:
 - **Telegram Name**
 - **Telegram Username**
 - **Telegram ID**
-- **User ID**
-- **Bot Token** (Collected by certain bots for cloning purposes)
+- **Bot Token** (Collected for cloning purposes)
 
 ### Why We Collect Your Data
 The data collected is essential for the operation of our bots and services. It allows us to verify that you are using our bots or have joined our groups/channels.
