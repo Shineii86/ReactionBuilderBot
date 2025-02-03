@@ -40,21 +40,6 @@ Some of our bots, like **ReactionBuilderBot**, may collect your bot token if you
 
 ---
 
-## Installation Instructions (Using Bots.Business)
-
-Follow these steps to set up **ReactionBuilderBot** with **Bots.Business**:
-
-1. Create an account on [Bots.Business](https://bots.business/).
-2. Go to the Dashboard and click on **Create a New Bot**.
-3. Enter the bot details, including your bot’s name and description.
-4. Under the **Automation** tab, configure your reactions and triggers using the visual editor.
-5. Add your bot token if cloning an existing bot.
-6. Save your bot configuration, and your bot will be live and ready to use!
-
-For more details, check the [official Bots.Business documentation](https://docs.bots.business/).
-
----
-
 ## Usage
 
 Once your bot is set up, you can use the following actions and commands:
