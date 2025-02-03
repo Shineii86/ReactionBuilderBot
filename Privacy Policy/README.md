@@ -35,17 +35,7 @@ We may collect the following details from our bots, channels, and groups:
 The data collected is essential for the operation of our bots and services. It allows us to verify that you are using our bots or have joined our groups/channels.
 
 ### Bot Token Collection
-Some of our bots, like **ReactionBuilderBot**, may collect your bot token if you are cloning our bots. This is necessary for the bot cloning process and will be kept secure.
-
----
-
-## Usage
-
-Once your bot is set up, you can use the following actions and commands:
-
-- **Create Reaction**: Set up custom triggers and responses for your group or channel.
-- **Clone Bot**: Input a bot token to clone an existing bot for your use.
-- **Adjust Settings**: Use the intuitive dashboard to manage your bot settings.
+Some of our bots, like **[ReactionBuilder Bot](https://t.me/ReactionBuilder?start=REACT13437642)**, may collect your bot token if you are cloning our bots. This is necessary for the bot cloning process and will be kept secure.
 
 ---
 
