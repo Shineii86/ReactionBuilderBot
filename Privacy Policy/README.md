@@ -50,18 +50,6 @@ Once your bot is set up, you can use the following actions and commands:
 
 ---
 
-## Contributing
-
-We welcome contributions! If you'd like to help improve **ReactionBuilderBot**, follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bugfix.
-3. Submit a pull request with your changes.
-
-Please ensure all code adheres to our coding guidelines.
-
----
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/Shineii86/ReactionBuilderBot/blob/main/LICENSE) file for details.
@@ -72,7 +60,6 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 - **Bots.Business (BJs)**: For providing the platform to create and manage bots.
 - **Telegram API**: For providing the platform that powers the bots.
-- **Libraries**: [List any important libraries or tools you used in your project]
 
 ---
 
