@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: ReactionBuilderBot
+    runtime: node
+    plan: starter
+    repo: https://github.com/Shineii86/ReactionBuilderBot
+    buildCommand: npm install
+    startCommand: node api/index.js
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: BOT_USERNAME
+        sync: false
+      - key: EMOJI_LIST
+        sync: false
+      - key: RESTRICTED_CHATS
+        sync: false
+      - key: PORT
+        value: "3000"
+      - key: NODE_ENV
+        value: production
+    healthCheckPath: /
+    autoDeploy: false

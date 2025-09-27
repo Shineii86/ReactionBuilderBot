@@ -1,0 +1,21 @@
+{
+  "name": "reactionbuilderbot",
+  "version": "1.1.0",
+  "description": "A Telegram Bot that automatically reacts to posts in Telegram Channels, groups, and private messages, developed as a serverless application.",
+  "main": "api/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node api/index.js",
+    "vercel": "vercel dev",
+    "cloudflare": "wrangler dev"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  },
+  "engines": {
+    "node": "22.x"
+  }
+}
