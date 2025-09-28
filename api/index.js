@@ -1,10 +1,6 @@
-/**
- * @project     Reaction Builder Bot
- * @author      Shinei Nouzen
- * @repository  https://github.com/Shineii86/ReactionBuilderBot
- *
- * @copyright   © 2025 Reaction Builder Bot. All rights reserved.
- * @license     MIT
+/*!
+ * © [2024] Malith-Rukshan. All rights reserved.
+ * Repository: https://github.com/Malith-Rukshan/Auto-Reaction-Bot
  */
 
 import express from 'express';
@@ -51,66 +47,52 @@ async function onUpdate(data, botApi, Reactions, RestrictedChats, botUsername, R
         message_id = content.message_id;
         text = content.text;
 
-        if (data.message && (text === '/start' || text === `/start@${botUsername}`)) {
+        if (data.message && (text === '/start' || text === '/start@' + botUsername)) {
             await botApi.sendMessage(chatId, startMessage.replace('UserName', content.chat.type === "private" ? content.from.first_name : content.chat.title), [
                 [
-                    {
-                        text: "✚ Aᴅᴅ Tᴏ Cʜᴀɴɴᴇʟ",
-                        url: `https://t.me/${botUsername}?startchannel=botstart`
-                    },
-                    {
-                        text: "Aᴅᴅ Tᴏ Gʀᴏᴜᴘ ✚",
-                        url: `https://t.me/${botUsername}?startgroup=botstart`
-                    }
+                    { "text": "➕ Add to Channel ➕", "url": `https://t.me/${botUsername}?startchannel=botstart` },
+                    { "text": "➕ Add to Group ➕", "url": `https://t.me/${botUsername}?startgroup=botstart` },
                 ],
                 [
-                    {
-                        text: "👾 Gɪᴛʜᴜʙ Sᴏᴜʀᴄᴇ  ✨",
-                        url: "https://github.com/Shineii86/ReactionBuilderBot"
-                    }
+                    { "text": "Github Source 📥", "url": "https://github.com/Malith-Rukshan/Auto-Reaction-Bot" },
                 ],
                 [
-                    { text: "🔔 Uᴘᴅᴀᴛᴇs", url: "https://t.me/MaximXBots" },
-                    { text: "Sᴜᴘᴘᴏʀᴛ 💬", url: "https://t.me/MaximXGroup" }
-                ],
-                [
-                    {
-                        text: "💪 Sᴜᴘᴘᴏʀᴛ Us - Dᴏɴᴀᴛᴇ 🎁",
-                        url: "https://t.me/ReactionBuilderBot?start=donate"
-                    }
+                    { "text": "💝 Support Us - Donate 🤝", "url": "https://t.me/Auto_ReactionBOT?start=donate" }
                 ]
             ]);
         } else if (data.message && text === '/reactions') {
             const reactions = Reactions.join(", ");
-            await botApi.sendMessage(chatId, "✅ Eɴᴀʙʟᴇᴅ Rᴇᴀᴄᴛɪᴏɴs: \n\n" + reactions);
-        } else if (data.message && (text === '/donate' || text === '/start donate')) {
+            await botApi.sendMessage(chatId, "✅ Enabled Reactions : \n\n" + reactions);
+        } else if (data.message && text === '/donate' || text === '/start donate') {
             await botApi.sendInvoice(
                 chatId,
-                "🎁 Dᴏɴᴀᴛᴇ Tᴏ Rᴇᴀᴄᴛɪᴏɴ Bᴜɪʟᴅᴇʀ Bᴏᴛ ✨",
+                "Donate to Auto Reaction Bot ✨",
                 donateMessage,
                 '{}',
                 '',
                 'donate',
                 'XTR',
-                [{ label: 'Pᴀʏ 1 ⭐', amount: 1 }]
-            );
+                [{ label: 'Pay ⭐️1', amount: 1 }],
+            )
         } else {
             // Calculate the threshold: higher RandomLevel, lower threshold
             let threshold = 1 - (RandomLevel / 10);
             if (!RestrictedChats.includes(chatId)) {
+                // Check if chat is a group or supergroup to determine if reactions should be random
                 if (["group", "supergroup"].includes(content.chat.type)) {
-                    // Run randomly according to RandomLevel
+                    // Run Function Randomly - Accroding to the RANDOM_LEVEL
                     if (Math.random() <= threshold) {
                         await botApi.setMessageReaction(chatId, message_id, getRandomPositiveReaction(Reactions));
                     }
                 } else {
+                    // For non-group chats, set the reaction directly
                     await botApi.setMessageReaction(chatId, message_id, getRandomPositiveReaction(Reactions));
                 }
             }
         }
-    } else if (data.pre_checkout_query) {
+    } else if (data.pre_checkout_query){
         await botApi.answerPreCheckoutQuery(data.pre_checkout_query.id, true);
-        await botApi.sendMessage(data.pre_checkout_query.from.id, "🎁 Tʜᴀɴᴋ Yᴏᴜ Fᴏʀ Yᴏᴜʀ Dᴏɴᴀᴛɪᴏɴ! ✨");
+        await botApi.sendMessage(data.pre_checkout_query.from.id, "Thank you for your donation! 💝");
     }
 }
 
