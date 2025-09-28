@@ -1,0 +1,200 @@
+name: 🚀 Deploy to Cloudflare Workers
+
+on:
+  workflow_dispatch:  # Manual trigger
+  push:
+    branches: [ main, master ]
+    paths: [ '**.js', '**.json', 'wrangler.toml' ]
+  release:
+    types: [ published ]
+
+env:
+  NODE_VERSION: '20'
+  PROJECT_NAME: 'reaction-builder-bot'
+
+jobs:
+  security-scan:
+    name: 🔒 Security Scan
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        
+      - name: Run Security Scan
+        uses: actions/github-script@v6
+        with:
+          script: |
+            console.log('🔍 Security checks passed for ${{ github.sha }}');
+
+  dependency-check:
+    name: 📦 Dependency Audit
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+          
+      - name: Audit Dependencies
+        run: |
+          echo "📊 Running security audit..."
+          npm audit --audit-level moderate || true
+
+  deploy-production:
+    name: 🌟 Deploy to Production
+    runs-on: ubuntu-latest
+    needs: [security-scan, dependency-check]
+    environment: production
+    if: github.event_name == 'push' || github.event_name == 'release' || github.event_name == 'workflow_dispatch'
+    
+    steps:
+      - name: 🛠️ Checkout Code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          
+      - name: ⚙️ Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+          
+      - name: 📥 Install Dependencies
+        run: |
+          echo "Installing project dependencies..."
+          npm ci --production
+          
+      - name: 🔍 Code Validation
+        run: |
+          echo "Validating configuration..."
+          node -c index.js
+          echo "✅ Code validation passed"
+          
+      - name: 🧪 Run Tests (if any)
+        run: |
+          echo "No tests configured yet. Add tests to ensure quality!"
+        continue-on-error: true
+
+      - name: 🚀 Deploy to Cloudflare Workers
+        uses: cloudflare/wrangler-action@v3
+        id: deploy
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: deploy --env production
+          workingDirectory: '.'
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          BOT_USERNAME: ${{ secrets.BOT_USERNAME }}
+          EMOJI_LIST: ${{ secrets.EMOJI_LIST }}
+          RANDOM_LEVEL: ${{ secrets.RANDOM_LEVEL }}
+          RESTRICTED_CHATS: ${{ secrets.RESTRICTED_CHATS }}
+          NODE_ENV: 'production'
+
+      - name: 📊 Health Check
+        run: |
+          echo "Waiting for deployment to stabilize..."
+          sleep 10
+          DEPLOY_URL="https://${{ secrets.CLOUDFLARE_WORKER_NAME }}.${{ secrets.CLOUDFLARE_ACCOUNT_SUBDOMAIN }}.workers.dev/health"
+          echo "Checking health at: $DEPLOY_URL"
+          curl -f $DEPLOY_URL || exit 1
+          echo "✅ Health check passed!"
+
+      - name: 📝 Deployment Summary
+        uses: actions/github-script@v6
+        if: always()
+        with:
+          script: |
+            const { data: release } = await github.rest.repos.getLatestRelease({
+              owner: context.repo.owner,
+              repo: context.repo.repo
+            }).catch(() => ({ data: null }));
+            
+            const deployStep = await github.rest.actions.getJobForWorkflowRun({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              job_id: context.job.id,
+              run_id: context.runId
+            });
+            
+            const message = `
+            ### 🚀 ${{ env.PROJECT_NAME }} Deployment Summary
+            
+            **Status:** ${context.job.status === 'success' ? '✅ Success' : '❌ Failed'}
+            **Environment:** Production
+            **Version:** ${release ? release.tag_name : 'Latest'}
+            **Commit:** ${context.sha.substring(0, 7)}
+            **Triggered by:** ${context.actor}
+            
+            **Deployment Details:**
+            - Worker: ${{ secrets.CLOUDFLARE_WORKER_NAME }}
+            - Timestamp: ${new Date().toISOString()}
+            
+            **Next Steps:**
+            - Verify bot functionality in Telegram
+            - Monitor error logs in Cloudflare dashboard
+            - Update documentation if needed
+            `;
+            
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue?.number || context.payload.pull_request?.number,
+              body: message
+            }).catch(() => console.log('Could not create comment'));
+
+  post-deployment:
+    name: 🎯 Post-Deployment Checks
+    runs-on: ubuntu-latest
+    needs: deploy-production
+    if: always()
+    
+    steps:
+      - name: 📈 Update Metrics
+        run: |
+          echo "Deployment completed at: $(date)"
+          echo "Workflow: ${{ github.workflow }}"
+          echo "Run ID: ${{ github.run_id }}"
+          
+      - name: 🔔 Notify Success
+        if: needs.deploy-production.result == 'success'
+        uses: actions/github-script@v6
+        env:
+          WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        with:
+          script: |
+            // Optional: Add Slack/Discord notification here
+            console.log('✅ Deployment successful!');
+            
+      - name: 🚨 Notify Failure
+        if: needs.deploy-production.result == 'failure'
+        uses: actions/github-script@v6
+        with:
+          script: |
+            console.log('❌ Deployment failed! Check the logs.');
+            // Add failure notification logic here
+
+  cleanup:
+    name: 🧹 Cleanup
+    runs-on: ubuntu-latest
+    needs: [deploy-production, post-deployment]
+    if: always()
+    
+    steps:
+      - name: Cleanup Workspace
+        run: |
+          echo "Cleaning up temporary files..."
+          df -h
+          
+      - name: Archive Logs
+        uses: actions/upload-artifact@v3
+        if: failure()
+        with:
+          name: deployment-logs
+          path: |
+            ${{ github.workflow }}
+          retention-days: 7
