@@ -7,48 +7,53 @@
  * @license     MIT
  */
 
-import express from "express"
-import bodyParser from "body-parser"
-import dotenv from "dotenv"
-import TelegramBotAPI from "./TelegramBotAPI.js"
-import { htmlContent, startMessage, donateMessage } from "./constants.js"
-import { splitEmojis, getRandomPositiveReaction, getChatIds } from "./helper.js"
+import express from 'express';
+import bodyParser from 'body-parser';
+import dotenv from 'dotenv';
+import TelegramBotAPI from './TelegramBotAPI.js';
+import { htmlContent, startMessage, donateMessage } from './constants.js';
+import { splitEmojis, getRandomPositiveReaction, getChatIds } from './helper.js';
 
-dotenv.config()
+dotenv.config();
 
-// Configuration
-const config = {
-  botToken: process.env.BOT_TOKEN,
-  botUsername: process.env.BOT_USERNAME,
-  reactions: splitEmojis(process.env.EMOJI_LIST),
-  restrictedChats: getChatIds(process.env.RESTRICTED_CHATS),
-  randomLevel: parseInt(process.env.RANDOM_LEVEL || "0", 10),
-  port: process.env.PORT || 3000
-}
+const app = express();
+app.use(bodyParser.json());
 
-// Validate essential configuration
-if (!config.botToken || !config.botUsername) {
-  throw new Error(
-    "Missing required environment variables: BOT_TOKEN and BOT_USERNAME"
-  )
-}
+const botToken = process.env.BOT_TOKEN;
+const botUsername = process.env.BOT_USERNAME;
+const Reactions = splitEmojis(process.env.EMOJI_LIST);
+const RestrictedChats = getChatIds(process.env.RESTRICTED_CHATS);
+const RandomLevel = parseInt(process.env.RANDOM_LEVEL || '0', 10);
 
-const app = express()
-const botApi = new TelegramBotAPI(config.botToken)
+const botApi = new TelegramBotAPI(botToken);
 
-// Middleware
-app.use(bodyParser.json())
+app.post('/', async (req, res) => {
+    const data = req.body;
+    try {
+        await onUpdate(data, botApi, Reactions, RestrictedChats, botUsername, RandomLevel);
+        res.status(200).send('Ok');
+    } catch (error) {
+        console.info('Error in onUpdate:', error);
+        res.status(200).send('Ok');
+    }
+});
 
-// Bot command handlers
-class BotHandlers {
-  static async handleStartCommand(chatInfo, botApi) {
-    const recipientName =
-      chatInfo.chat.type === "private"
-        ? chatInfo.from.first_name
-        : chatInfo.chat.title
+app.get('/', (req, res) => {
+    res.send(htmlContent);
+});
 
-    const message = startMessage.replace("UserName", recipientName)
-    const keyboard = [
+async function onUpdate(data, botApi, Reactions, RestrictedChats, botUsername, RandomLevel) {
+    let chatId, message_id, text;
+
+    if (data.message || data.channel_post) {
+        const content = data.message || data.channel_post;
+        chatId = content.chat.id;
+        message_id = content.message_id;
+        text = content.text;
+
+        if (data.message && (text === '/start' || text === '/start@' + botUsername)) {
+            await botApi.sendMessage(chatId, startMessage.replace('UserName', content.chat.type === "private" ? content.from.first_name : content.chat.title), [
+                [
       [
         {
           text: "✚ Aᴅᴅ Tᴏ Cʜᴀɴɴᴇʟ",
@@ -75,136 +80,44 @@ class BotHandlers {
           url: "https://t.me/ReactionBuilderBot?start=donate"
         }
       ]
-    ]
-
-    await botApi.sendMessage(chatInfo.chat.id, message, keyboard)
-  }
-
-  static async handleReactionsCommand(chatId, botApi) {
-    const reactionsList = config.reactions.join(", ")
-    await botApi.sendMessage(
-      chatId,
-      `👮 Eɴᴀʙʟᴇᴅ Rᴇᴀᴄᴛɪᴏɴs: \n\n${reactionsList}`
-    )
-  }
-
-  static async handleDonateCommand(chatId, botApi) {
-    await botApi.sendInvoice(
-      chatId,
-      "🎁 Dᴏɴᴀᴛᴇ Tᴏ Rᴇᴀᴄᴛɪᴏɴ Bᴜɪʟᴅᴇʀ Bᴏᴛ ✨",
-      donateMessage,
-      "{}",
-      "",
-      "donate",
-      "XTR",
-      [{ label: "Pᴀʏ ⭐️1", amount: 1 }]
-    )
-  }
-
-  static async handlePreCheckoutQuery(query, botApi) {
-    await botApi.answerPreCheckoutQuery(query.id, true)
-    await botApi.sendMessage(
-      query.from.id,
-      "🎁 Tʜᴀɴᴋ Yᴏᴜ Fᴏʀ Yᴏᴜʀ Dᴏɴᴀᴛɪᴏɴ! ✨"
-    )
-  }
-
-  static async handleMessageReaction(content, botApi) {
-    const { chat, message_id } = content
-
-    if (config.restrictedChats.includes(chat.id)) {
-      return // Skip restricted chats
+    ]);
+        } else if (data.message && text === '/reactions') {
+            const reactions = Reactions.join(", ");
+            await botApi.sendMessage(chatId, "✅ Eɴᴀʙʟᴇᴅ Rᴇᴀᴄᴛɪᴏɴs: \n\n" + reactions);
+        } else if (data.message && text === '/donate' || text === '/start donate') {
+            await botApi.sendInvoice(
+                chatId,
+                "🎁 Dᴏɴᴀᴛᴇ Tᴏ Rᴇᴀᴄᴛɪᴏɴ Bᴜɪʟᴅᴇʀ Bᴏᴛ ✨",
+                donateMessage,
+                '{}',
+                '',
+                'donate',
+                'XTR',
+                [{ label: 'Pᴀʏ 1 ⭐', amount: 1 }],
+            )
+        } else {
+            // Calculate the threshold: higher RandomLevel, lower threshold
+            let threshold = 1 - (RandomLevel / 10);
+            if (!RestrictedChats.includes(chatId)) {
+                // Check if chat is a group or supergroup to determine if reactions should be random
+                if (["group", "supergroup"].includes(content.chat.type)) {
+                    // Run Function Randomly - Accroding to the RANDOM_LEVEL
+                    if (Math.random() <= threshold) {
+                        await botApi.setMessageReaction(chatId, message_id, getRandomPositiveReaction(Reactions));
+                    }
+                } else {
+                    // For non-group chats, set the reaction directly
+                    await botApi.setMessageReaction(chatId, message_id, getRandomPositiveReaction(Reactions));
+                }
+            }
+        }
+    } else if (data.pre_checkout_query){
+        await botApi.answerPreCheckoutQuery(data.pre_checkout_query.id, true);
+        await botApi.sendMessage(data.pre_checkout_query.from.id, "🎁 Tʜᴀɴᴋ Yᴏᴜ Fᴏʀ Yᴏᴜʀ Dᴏɴᴀᴛɪᴏɴ! ✨");
     }
-
-    const shouldReactRandomly = ["group", "supergroup"].includes(chat.type)
-    const threshold = 1 - config.randomLevel / 10
-
-    // Determine if we should react based on chat type and random level
-    if (shouldReactRandomly) {
-      if (Math.random() > threshold) return // Skip based on random level
-    }
-
-    const reaction = getRandomPositiveReaction(config.reactions)
-    await botApi.setMessageReaction(chat.id, message_id, reaction)
-  }
 }
 
-// Update processor
-async function processUpdate(update) {
-  try {
-    if (update.message || update.channel_post) {
-      const content = update.message || update.channel_post
-      const { text, chat, message_id } = content
-
-      // Handle commands
-      if (update.message) {
-        if (text === "/start" || text === `/start@${config.botUsername}`) {
-          await BotHandlers.handleStartCommand(content, botApi)
-          return
-        }
-
-        if (text === "/reactions") {
-          await BotHandlers.handleReactionsCommand(chat.id, botApi)
-          return
-        }
-
-        if (text === "/donate" || text === "/start donate") {
-          await BotHandlers.handleDonateCommand(chat.id, botApi)
-          return
-        }
-      }
-
-      // Handle automatic reactions for non-command messages
-      await BotHandlers.handleMessageReaction(content, botApi)
-    } else if (update.pre_checkout_query) {
-      await BotHandlers.handlePreCheckoutQuery(
-        update.pre_checkout_query,
-        botApi
-      )
-    }
-  } catch (error) {
-    console.error("Error processing update:", error)
-    throw error // Re-throw to handle in the route
-  }
-}
-
-// Routes
-app.post("/", async (req, res) => {
-  try {
-    await processUpdate(req.body)
-    res.status(200).send("OK")
-  } catch (error) {
-    console.error("Error in webhook handler:", error)
-    res.status(200).send("OK") // Still return 200 to prevent retries from Telegram
-  }
-})
-
-app.get("/", (req, res) => {
-  res.send(htmlContent)
-})
-
-// Health check endpoint
-app.get("/health", (req, res) => {
-  res.status(200).json({
-    status: "OK",
-    timestamp: new Date().toISOString(),
-    bot: config.botUsername
-  })
-})
-
-// Error handling middleware
-app.use((error, req, res, next) => {
-  console.error("Unhandled error:", error)
-  res.status(500).send("Internal Server Error")
-})
-
-// Start server
-app.listen(config.port, () => {
-  console.log(`🤖 Reaction Builder Bot is running on port ${config.port}`)
-  console.log(`✨ Bot username: @${config.botUsername}`)
-  console.log(`🎯 Reactions loaded: ${config.reactions.length}`)
-  console.log(`🚫 Restricted chats: ${config.restrictedChats.length}`)
-  console.log(`🎲 Random level: ${config.randomLevel}/10`)
-})
-
-export default app
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
+});
