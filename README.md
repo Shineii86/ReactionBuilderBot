@@ -287,8 +287,8 @@ When [reporting issues](https://github.com/Shineii86/ReactionBuilderBot/issues/n
 ## 🏆 Credits & Acknowledgments
 
 ### 👨‍💻 Core Development Team
-- **Shineii** - Lead Developer & Maintainer
-- **Malith Rukshan** - Original Concept & Inspiration
+- **[Shinei Nouzen](https://github.com/Shineii86)** - Lead Developer & Maintainer
+- **[Malith Rukshan](https://github.com/Malith-Rukshan/Auto-Reaction-Bot)** - Original Concept & Inspiration
 
 ### 🔧 Technologies Used
 - [Telegram Bot API](https://core.telegram.org/bots/api) - Official Telegram API
