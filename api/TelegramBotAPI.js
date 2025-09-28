@@ -1,12 +1,9 @@
 /**
- * @project     Reaction Builder Bot
- * @author      Shinei Nouzen
- * @repository  https://github.com/Shineii86/ReactionBuilderBot
- *
- * @copyright   © 2025 Reaction Builder Bot. All rights reserved.
- * @license     MIT
+ * Telegram API for: 
+ *      - sendMessage
+ *      - setMessageReaction
+ * Repository: https://github.com/Malith-Rukshan/Auto-Reaction-Bot
  */
-
 import fetch from 'node-fetch';
 
 export default class TelegramBotAPI {

@@ -1,212 +1,101 @@
-/**
- * @project     Reaction Builder Bot
- * @author      Shinei Nouzen
- * @repository  https://github.com/Shineii86/ReactionBuilderBot
- *
- * @copyright   © 2025 Reaction Builder Bot. All rights reserved.
- * @license     MIT
+/*!
+ * © [2024] Malith-Rukshan. All rights reserved.
+ * Repository: https://github.com/Malith-Rukshan/Auto-Reaction-Bot
  */
 
 import TelegramBotAPI from "./TelegramBotAPI.js";
 import { htmlContent, startMessage, donateMessage } from './constants.js';
-import { splitEmojis, returnHTML, getRandomPositiveReaction, getChatIds } from "./helper.js";
+import { splitEmojis, returnHTML, getRandomPositiveReaction, getChatIds} from "./helper.js";
 
 export default {
     async fetch(request, env, ctx) {
-        try {
-            // Validate environment variables
-            if (!env.BOT_TOKEN || !env.BOT_USERNAME) {
-                throw new Error('Missing required environment variables: BOT_TOKEN and BOT_USERNAME');
+        // Access the bot token and emoji list from environment variables
+        const botToken = env.BOT_TOKEN;
+        const botUsername = env.BOT_USERNAME;
+        const Reactions = splitEmojis(env.EMOJI_LIST);
+        const RestrictedChats = getChatIds(env.RESTRICTED_CHATS);
+        const RandomLevel = parseInt(env.RANDOM_LEVEL || '0', 10);
+
+        const botApi = new TelegramBotAPI(botToken);
+
+        if (request.method === 'POST') {
+            const data = await request.json()
+            try {
+                await this.onUpdate(data, botApi, Reactions,RestrictedChats, botUsername, RandomLevel)
+            } catch (error) {
+                console.log(error)
             }
+        } else {
+            return new returnHTML(htmlContent)
+            //return new Response('Method not supported', { status: 405 });
+        }
 
-            // Initialize configuration
-            const config = {
-                botToken: env.BOT_TOKEN,
-                botUsername: env.BOT_USERNAME,
-                reactions: splitEmojis(env.EMOJI_LIST || ''),
-                restrictedChats: getChatIds(env.RESTRICTED_CHATS || ''),
-                randomLevel: parseInt(env.RANDOM_LEVEL || '0', 10)
-            };
+        // Return HTTP 200.OK to Telegram
+        return new Response('Ok', { status: 200 })
+    },
 
-            const botApi = new TelegramBotAPI(config.botToken);
+    /**
+     * Handle incoming Update
+     * https://core.telegram.org/bots/api#update
+     */
+    async onUpdate(data, botApi, Reactions,RestrictedChats, botUsername, RandomLevel) {
+        let chatId, message_id, text;
 
-            if (request.method === 'POST') {
-                const data = await request.json();
-                await this.handleWebhook(data, botApi, config);
-                return new Response('OK', { status: 200 });
-            } else if (request.method === 'GET') {
-                // Handle health checks and web interface
-                const url = new URL(request.url);
-                
-                if (url.pathname === '/health') {
-                    return new Response(JSON.stringify({
-                        status: 'OK',
-                        timestamp: new Date().toISOString(),
-                        bot: config.botUsername,
-                        reactions: config.reactions.length,
-                        restrictedChats: config.restrictedChats.length,
-                        randomLevel: config.randomLevel
-                    }), {
-                        status: 200,
-                        headers: { 'Content-Type': 'application/json' }
-                    });
-                }
-                
-                // Return HTML interface for root path
-                return new returnHTML(htmlContent);
+        if (data.message || data.channel_post) {
+            const content = data.message || data.channel_post;
+            chatId = content.chat.id;
+            message_id = content.message_id;
+            text = content.text;
+
+            if (data.message && (text === '/start' || text === '/start@'+ botUsername )) {
+                await botApi.sendMessage(chatId, startMessage.replace('UserName', content.chat.type === "private" ? content.from.first_name : content.chat.title),
+				[
+					[
+                        {"text": "➕ Add to Channel ➕", "url": `https://t.me/${botUsername}?startchannel=botstart`},
+						{"text": "➕ Add to Group ➕", "url": `https://t.me/${botUsername}?startgroup=botstart`},
+					],
+                    [
+                        {"text": "Github Source 📥", "url": "https://github.com/Malith-Rukshan/Auto-Reaction-Bot"},
+                    ],
+                    [
+                        { "text": "💝 Support Us - Donate 🤝", "url": "https://t.me/Auto_ReactionBOT?start=donate" }
+                    ]
+				]
+				);
+            } else 
+			if (data.message && text === '/reactions') {
+				const reactions = Reactions.join(", ");
+				await botApi.sendMessage(chatId, "✅ Enabled Reactions : \n\n" + reactions);
+			} else if (data.message && text === '/donate' || text === '/start donate') {
+                await botApi.sendInvoice(
+                    chatId,
+                    "Donate to Auto Reaction Bot ✨",
+                    donateMessage,
+                    '{}',
+                    '',
+                    'donate',
+                    'XTR',
+                    [{ label: 'Pay ⭐️1', amount: 1 }],
+                )
             } else {
-                return new Response('Method Not Allowed', { status: 405 });
+                // Calculate the threshold: higher RandomLevel, lower threshold
+                let threshold = 1 - (RandomLevel / 10);
+                if (!RestrictedChats.includes(chatId)) {
+                    // Check if chat is a group or supergroup to determine if reactions should be random
+                    if (["group", "supergroup"].includes(content.chat.type)) {
+                        // Run Function Randomly - Accroding to the RANDOM_LEVEL
+                        if (Math.random() <= threshold) {
+                            await botApi.setMessageReaction(chatId, message_id, getRandomPositiveReaction(Reactions));
+                        }
+                    } else {
+                        // For non-group chats, set the reaction directly
+                        await botApi.setMessageReaction(chatId, message_id, getRandomPositiveReaction(Reactions));
+                    }
+                }
             }
-
-        } catch (error) {
-            console.error('Error in fetch handler:', error);
-            return new Response('Internal Server Error', { status: 500 });
+        } else if (data.pre_checkout_query){
+            await botApi.answerPreCheckoutQuery(data.pre_checkout_query.id, true);
+            await botApi.sendMessage(data.pre_checkout_query.from.id, "Thank you for your donation! 💝");
         }
-    },
-
-    /**
-     * Handle incoming webhook data
-     * @param {Object} data - Telegram webhook data
-     * @param {TelegramBotAPI} botApi - Bot API instance
-     * @param {Object} config - Bot configuration
-     */
-    async handleWebhook(data, botApi, config) {
-        try {
-            if (data.message || data.channel_post) {
-                await this.handleMessage(data, botApi, config);
-            } else if (data.pre_checkout_query) {
-                await this.handlePreCheckout(data.pre_checkout_query, botApi);
-            }
-        } catch (error) {
-            console.error('Error handling webhook:', error);
-            throw error;
-        }
-    },
-
-    /**
-     * Handle message and channel post updates
-     */
-    async handleMessage(data, botApi, config) {
-        const content = data.message || data.channel_post;
-        const { chat, message_id, text } = content;
-
-        // Handle commands from private messages only
-        if (data.message && text && text.startsWith('/')) {
-            await this.handleCommand(text, content, botApi, config);
-            return;
-        }
-
-        // Handle automatic reactions for non-command messages
-        await this.handleAutomaticReaction(content, botApi, config);
-    },
-
-    /**
-     * Handle bot commands
-     */
-    async handleCommand(text, content, botApi, config) {
-        const { chat, from } = content;
-        
-        if (text === '/start' || text === `/start@${config.botUsername}`) {
-            await this.handleStartCommand(chat, from, botApi, config);
-        } else if (text === '/reactions') {
-            await this.handleReactionsCommand(chat.id, botApi, config);
-        } else if (text === '/donate' || text === '/start donate') {
-            await this.handleDonateCommand(chat.id, botApi);
-        }
-    },
-
-    /**
-     * Handle /start command
-     */
-    async handleStartCommand(chat, from, botApi, config) {
-        const recipientName = chat.type === "private" ? from.first_name : chat.title;
-        const message = startMessage.replace('UserName', recipientName);
-        
-        const keyboard = [
-            [
-                { 
-                    text: "✚ Aᴅᴅ Tᴏ Cʜᴀɴɴᴇʟ", 
-                    url: `https://t.me/${config.botUsername}?startchannel=botstart` 
-                },
-                { 
-                    text: "Aᴅᴅ Tᴏ Gʀᴏᴜᴘ ✚", 
-                    url: `https://t.me/${config.botUsername}?startgroup=botstart` 
-                }
-            ],
-            [
-                { 
-                    text: "👾 Gɪᴛʜᴜʙ Sᴏᴜʀᴄᴇ ✨", 
-                    url: "https://github.com/Shineii86/ReactionBuilderBot" 
-                }
-            ],
-            [
-                { text: "🔔 Uᴘᴅᴀᴛᴇs", url: "https://t.me/MaximXBots" },
-                { text: "Sᴜᴘᴘᴏʀᴛ 💬", url: "https://t.me/MaximXGroup" }
-            ],
-            [
-                { 
-                    text: "💪 Sᴜᴘᴘᴏʀᴛ Us - Dᴏɴᴀᴛᴇ 🎁", 
-                    url: `https://t.me/${config.botUsername}?start=donate` 
-                }
-            ]
-        ];
-
-        await botApi.sendMessage(chat.id, message, keyboard);
-    },
-
-    /**
-     * Handle /reactions command
-     */
-    async handleReactionsCommand(chatId, botApi, config) {
-        const reactionsList = config.reactions.join(", ");
-        await botApi.sendMessage(chatId, `👮 Eɴᴀʙʟᴇᴅ Rᴇᴀᴄᴛɪᴏɴs: \n\n${reactionsList}`);
-    },
-
-    /**
-     * Handle /donate command
-     */
-    async handleDonateCommand(chatId, botApi) {
-        await botApi.sendInvoice(
-            chatId,
-            "🎁 Dᴏɴᴀᴛᴇ Tᴏ Rᴇᴀᴄᴛɪᴏɴ Bᴜɪʟᴅᴇʀ Bᴏᴛ ✨",
-            donateMessage,
-            '{}',
-            '',
-            'donate',
-            'XTR',
-            [{ label: 'Pᴀʏ ⭐️1', amount: 1 }]
-        );
-    },
-
-    /**
-     * Handle automatic message reactions
-     */
-    async handleAutomaticReaction(content, botApi, config) {
-        const { chat, message_id } = content;
-
-        // Skip restricted chats
-        if (config.restrictedChats.includes(chat.id)) {
-            return;
-        }
-
-        // Calculate reaction probability based on chat type and random level
-        const threshold = 1 - (config.randomLevel / 10);
-        const isGroupChat = ["group", "supergroup"].includes(chat.type);
-        
-        // For group chats, apply random level; for others, always react
-        if (isGroupChat && Math.random() > threshold) {
-            return;
-        }
-
-        const reaction = getRandomPositiveReaction(config.reactions);
-        await botApi.setMessageReaction(chat.id, message_id, reaction);
-    },
-
-    /**
-     * Handle pre-checkout queries for donations
-     */
-    async handlePreCheckout(query, botApi) {
-        await botApi.answerPreCheckoutQuery(query.id, true);
-        await botApi.sendMessage(query.from.id, "🎁 Tʜᴀɴᴋ Yᴏᴜ Fᴏʀ Yᴏᴜʀ Dᴏɴᴀᴛɪᴏɴ! ✨");
     }
 };
